@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   build-apk:
-    run-on: windows-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
