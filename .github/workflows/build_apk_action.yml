@@ -21,3 +21,7 @@ jobs:
         with:
           name: my-app
           path: build/app/outputs/flutter-apk/app-debug.apk
+      - name: Set up Java
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
